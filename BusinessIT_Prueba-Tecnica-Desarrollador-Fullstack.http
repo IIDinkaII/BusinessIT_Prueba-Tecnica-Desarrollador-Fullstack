@@ -1,0 +1,6 @@
+@BusinessIT_Prueba_Tecnica_Desarrollador_Fullstack_HostAddress = http://localhost:5098
+
+GET {{BusinessIT_Prueba_Tecnica_Desarrollador_Fullstack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
