@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/BusinessITPruebaServiceApiManagement/apis/BusinessITPruebaAPIManagement",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/BusinessITPrueba/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsConnection_1EAB9E0DAA",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/businessit-prueba-tecnica-dbserver/databases/BusinessIT_Prueba-Tecnica_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Connection",
+      "dynamicId": null
+    }
+  }
+}
